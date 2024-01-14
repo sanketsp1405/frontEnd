@@ -1,15 +1,16 @@
 
         .container {
             height: 640px;
-          
-           padding: px;
+              
+           padding: 4px;
            margin: 4px;
             width: 1280px;
             
         
         }
         .container1{ 
-            text-align: center;
+            
+            display: flex;
 
         }
         .container1{
@@ -23,12 +24,12 @@
         .box{
           
                 
-                padding: 3px;
-                margin: 3px;
+                padding: 2px;
+                margin: 2px;
                 height:300px ;
                 width: 400px;
                 float: left;
-                margin-left: 10%;
+                margin-left: 5%;
                 margin-top: 5%;
              
                 border-radius: 5px;
@@ -36,9 +37,9 @@
                
             }
             .box1{ 
-                margin-left: 23%;
+                margin-left: 20%;
                 box-shadow: 4px 6px 8px black;
-      
+               float: left;
                 border: 2px solid black;
             }
             .box2{
