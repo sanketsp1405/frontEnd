@@ -1,7 +1,15 @@
+*{
+  padding: 4px;
+  margin: 5px;
+
+}
 .container1 {
   height: 600px;
-  width: 1250px;
-  border: 2px solid black;
+  width: 1000px;
+
+  margin-left: 16%;
+
+
 
 }
 
@@ -32,7 +40,7 @@ nav a:hover {
   height: 300px;
   width: 300px;
   float: left;
-  margin-left: 80px;
+  margin-left: 60px;
   margin-top: 100px;
 
   border-radius: 5px;
@@ -41,7 +49,7 @@ nav a:hover {
 }
 
 .box12 {
-  margin-left: 10%;
+  margin-left: 6%;
   border-radius: 50%;
   border: 2px 4px solid black;
 }
@@ -50,7 +58,7 @@ nav a:hover {
   width: 300px;
   height: 200px;
   margin-top: 10%;
-  margin-left: 20%;
+  margin-left: 10%;
   text-shadow: 2px 4px white;
 }
 
@@ -131,6 +139,7 @@ nav a:hover {
   height: 850px;
   width: 1250px;
   margin-top: 50%;
+  
 
 }
 
@@ -169,6 +178,7 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+ 
 
 
 }
@@ -185,7 +195,8 @@ section {
 .profile h2 {
   margin: 0;
   color: #333;
-  text-align: center;
+ 
+  font-size: 50px;
 
 
 }
@@ -195,39 +206,73 @@ section {
   text-align: center;
 }
 
-.contact h3 {
-  font-size: 50px;
-}
 
-.contact p {
-  align-items: center;
-}
 
 .container2 {
-  height: 400px;
-  width: 1240px;
-  border: 2px solid black;
+  height: 450px;
+  width: 1000px;
+
 }
 
 .container3 {
   height: 400px;
-  width: 1240px;
-  border: 2px solid black;
+  width: 1000px;
+
+  
+  font-size: 40px;
+
 }
 
 .container4 {
   height: 400px;
-  width: 1240px;
-  border: 2px solid black;
+  width: 1000px;
+
+  
+  font-size: 40px;
+
 }
 
 .container5 {
   height: 400px;
-  width: 1240px;
-  border: 2px solid black;
+  width: 1000px;
+
+  
+  font-size: 40px;
+
+}
+.sidebar {
+  height: 100%;
+
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:white;
+  padding-top: 20px;
 }
 
-.container6 {
-  padding: 2px;
+.sidebar a {
+  padding: 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color:black;
+  display: block;
+  transition: 0.3s;
+}
 
+.sidebar a:hover {
+  background-color: #555;
+}
+.hamburger{
+  position: absolute;
+  cursor: pointer;
+  top: 5px;
+  left: 10px;
+}
+.cross{
+  margin-left: 150px;
+}
+.sidebarGO{
+  transform: translate(-443px,0px);
+  position: absolute;
 }
