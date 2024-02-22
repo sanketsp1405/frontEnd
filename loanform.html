@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bike Loan Application</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 50%;
+        margin: 50px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        /* Background Texture */
+        background-image: url('https://www.transparenttextures.com/patterns/fabric-plaid.png');
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: #555;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px;
+        border-radius: 10px 10px 0 0;
+        margin-bottom: 30px;
+    }
+
+    .form-header h2 {
+        margin: 0;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="form-header">
+        <h2>Bike Loan Application</h2>
+    </div>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+        </div>
+
+        <div class="form-group">
+            <label for="bike_model">Bike Model:</label>
+            <input type="text" id="bike_model" name="bike_model" required>
+        </div>
+
+        <div class="form-group">
+            <label for="loan_amount">Loan Amount:</label>
+            <input type="number" id="loan_amount" name="loan_amount" required>
+        </div>
+
+        <div class="form-group">
+            <label for="loan_term">Loan Term (months):</label>
+            <input type="number" id="loan_term" name="loan_term" required>
+        </div>
+
+        <input type="submit" value="Submit Application">
+    </form>
+</div>
+
+</body>
+</html>
